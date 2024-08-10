@@ -39,3 +39,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
              #       ]
             #    ]
             #)
+    else:
+        await query.message.edit_text(
+        text="❌ Invalid command! Please use /about or /close."
+    )

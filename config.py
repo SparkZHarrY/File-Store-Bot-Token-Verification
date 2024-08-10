@@ -77,7 +77,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/links_tutorials_x/4")
 
 #Payment to remove the token system
 #put TRUE if you want this feature
-USE_PAYMENT = True if (os.environ.get("USE_PAYMENT", "FALSE") == "TRUE") & (USE_SHORTLINK) else False
+USE_PAYMENT = False if (os.environ.get("USE_PAYMENT", "FALSE") == "TRUE") & (USE_SHORTLINK) else False
 #UPI ID
 UPI_ID = os.environ.get("UPI_ID", " ")
 #UPI QR CODE IMAGE
